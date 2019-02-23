@@ -6,13 +6,13 @@
     "type": "git",
     "url": "https://github.com/kube-js/renovate-config"
   },
+  "main": "index.js",
   "author": "Mariusz Rajczakowski <mariuszrajczakowski@pm.me> (http://mariuszrajczakowski.me)",
   "license": "MIT",
   "renovate-config": {
     "base": {
       "extends": [
-        "config:base",
-        ":pinAllExceptPeerDependencies"
+        "config:js-app"
       ],
       "rangeStrategy": "replace",
       "automerge": true,
