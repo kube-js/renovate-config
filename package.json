@@ -1,0 +1,34 @@
+{
+  "name": "@kube-js/renovate-config",
+  "version": "0.0.0-development",
+  "description": "A package containing kube-js' configs for renovate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kube-js/renovate-config"
+  },
+  "author": "Mariusz Rajczakowski <mariuszrajczakowski@pm.me> (http://mariuszrajczakowski.me)",
+  "license": "MIT",
+  "renovate-config": {
+    "base": {
+      "extends": [
+        "config:base",
+        ":pinAllExceptPeerDependencies"
+      ],
+      "rangeStrategy": "replace",
+      "automerge": true,
+      "automergeType": "branch-push",
+      "major": {
+        "automerge": false
+      },
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          "before 5am on every weekday"
+        ]
+      }
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
