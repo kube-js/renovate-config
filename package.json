@@ -10,7 +10,7 @@
   "author": "Mariusz Rajczakowski <mariuszrajczakowski@pm.me> (http://mariuszrajczakowski.me)",
   "license": "MIT",
   "renovate-config": {
-    "base": {
+    "webapp": {
       "extends": [
         "config:js-app"
       ],
