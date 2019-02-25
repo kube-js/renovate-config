@@ -10,5 +10,13 @@
 }
 ```
 
+or
+
+```json
+{
+  "extends": ["@kube-js:lib"]
+}
+```
+
 2. Enable Renovate for your repository using [Renovate's Github integration](https://github.com/apps/renovate/installations/new).
 

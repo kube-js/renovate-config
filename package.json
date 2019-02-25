@@ -26,6 +26,23 @@
           "before 5am on every weekday"
         ]
       }
+    },
+    "lib": {
+      "extends": [
+        "config:js-lib"
+      ],
+      "rangeStrategy": "replace",
+      "automerge": true,
+      "automergeType": "branch-push",
+      "major": {
+        "automerge": false
+      },
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          "before 5am on every weekday"
+        ]
+      }
     }
   },
   "publishConfig": {
