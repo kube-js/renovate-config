@@ -7,6 +7,9 @@
     "url": "https://github.com/kube-js/renovate-config"
   },
   "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release-public-circleci-lib"
+  },
   "author": "Mariusz Rajczakowski <mariuszrajczakowski@pm.me> (http://mariuszrajczakowski.me)",
   "license": "MIT",
   "renovate-config": {
@@ -47,5 +50,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@kube-js/semantic-release": "^1.0.1"
   }
 }
