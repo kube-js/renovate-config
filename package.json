@@ -52,6 +52,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "@kube-js/semantic-release": "1.0.1"
+    "@kube-js/semantic-release": "1.0.3"
   }
 }
