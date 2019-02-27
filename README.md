@@ -20,3 +20,5 @@ or
 
 2. Enable Renovate for your repository using [Renovate's Github integration](https://github.com/apps/renovate/installations/new).
 
+Credits: 
+[ryansmith94](https://github.com/ryansmith94)
