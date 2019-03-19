@@ -1,5 +1,5 @@
 # Renovate Config
-> Package containing kube-js' configs for renovate.
+Package containing kube-js' configs for renovate.
 
 ### Usage
 1. Create a "renovate.json" file in the root of your repository 
